@@ -9,8 +9,6 @@ import org.junit.jupiter.api.Test;
 
 public class OrderServiceImplTest
 {
-
-
     @Test
     void createOrder() {
         MemoryMemberRepository memberRepository = new MemoryMemberRepository();
